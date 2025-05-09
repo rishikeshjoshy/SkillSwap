@@ -4,6 +4,8 @@
           
 # P2P Learning App - Features
 
+(Development STAGE - Release Date 16/05/2025)
+
 A peer-to-peer learning platform that connects learners with skilled teachers for personalized education experiences.
 
 ## Core Features
