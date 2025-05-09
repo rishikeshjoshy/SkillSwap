@@ -1,0 +1,60 @@
+skillswap/
+├── android/                 # Android-specific files
+├── ios/                     # iOS-specific files
+├── lib/
+│   ├── main.dart            # Entry point
+│   ├── app.dart             # App configuration
+│   ├── constants/
+│   │   ├── app_constants.dart  # App-wide constants
+│   │   ├── color_constants.dart # Color scheme
+│   │   └── text_constants.dart  # Text styles
+│   ├── models/
+│   │   ├── user_model.dart     # User profile data
+│   │   ├── skill_model.dart    # Skill data structure
+│   │   ├── session_model.dart  # Session booking data
+│   │   └── review_model.dart   # Review data structure
+│   ├── screens/
+│   │   ├── auth/
+│   │   │   ├── login_screen.dart    # Login UI
+│   │   │   └── profile_setup_screen.dart # Profile creation
+│   │   ├── home/
+│   │   │   ├── home_screen.dart     # Main dashboard
+│   │   │   ├── skill_search_screen.dart # Find skills
+│   │   │   └── nearby_users_screen.dart # Users in radius
+│   │   ├── profile/
+│   │   │   ├── profile_screen.dart  # View/edit profile
+│   │   │   └── portfolio_screen.dart # Portfolio display
+│   │   ├── session/
+│   │   │   ├── session_booking_screen.dart # Book sessions
+│   │   │   ├── session_details_screen.dart # Session info
+│   │   │   └── video_call_screen.dart # WebRTC integration
+│   │   └── reviews/
+│   │       └── review_screen.dart   # Leave/view reviews
+│   ├── services/
+│   │   ├── supabase_service.dart    # Supabase API wrapper
+│   │   ├── auth_service.dart        # Authentication logic
+│   │   ├── geo_service.dart         # Location services
+│   │   ├── storage_service.dart     # File storage
+│   │   ├── notification_service.dart # Push notifications
+│   │   └── payment_service.dart     # Stripe (commented out)
+│   ├── providers/
+│   │   ├── auth_provider.dart       # Auth state
+│   │   ├── user_provider.dart       # User data
+│   │   ├── session_provider.dart    # Session state
+│   │   └── location_provider.dart   # Location state
+│   ├── widgets/
+│   │   ├── skill_card.dart          # Skill display
+│   │   ├── user_avatar.dart         # Profile picture
+│   │   ├── session_card.dart        # Session info card
+│   │   ├── rating_stars.dart        # Star rating widget
+│   │   └── custom_button.dart       # Reusable button
+│   └── utils/
+│       ├── validators.dart          # Form validation
+│       ├── date_formatter.dart      # Date utilities
+│       ├── distance_calculator.dart # Geo calculations
+│       └── error_handler.dart       # Error handling
+├── test/
+│   ├── auth_test.dart               # Auth unit tests
+│   └── booking_test.dart            # Booking unit tests
+├── pubspec.yaml                     # Dependencies
+└── README.md                        # Setup instructions
